@@ -1,0 +1,52 @@
+#  Byte-compiled / Optimized Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Virtual Environments
+# Virtual environments are isolated Python environments that allow you to manage dependencies for different projects separately
+venv/
+.venv/
+env/
+ENV/
+
+
+# Packaging Artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+
+
+# IDE/Editor Configurations
+.idea/
+.vscode/
+*.sublime-workspace
+
+
+# Operating System Generated Files
+# Operating systems may generate hidden metadata files that are not relevant to the project.
+.DS_Store
+.directory
+
+
+# Local Configuration Files
+# Sometimes projects use local configuration files that should not be shared (e.g., containing secrets or personal preferences).
+.env
+*.ini
+*.yml
+
+
+# Log and Data Files
+# Files that are generated as a result of running your application, which are not necessary to be version controlled.
+*.log
+*.csv
+*.json
+
+
+# Test Output
+# Test frameworks might generate reports or output that should not be committed.
+.pytest_cache/
+htmlcov/
+
